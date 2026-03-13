@@ -148,3 +148,26 @@ console.log(true + 1);
 console.log(false + 1);
 console.log(null + 1);
 console.log(undefined + 1);
+
+
+//Строгое и нестрогое сравнение
+console.log(5 == "5");
+console.log(5 === "5");
+console.log(0 == false);
+console.log(0 === false);
+console.log(null == undefined);
+console.log(null === undefined);
+
+let obj1 = { name: "John" }
+let obj2 = { name: "John" }
+
+console.log(obj1 == obj2);
+console.log(obj1 === obj2);
+
+let obj3 = obj1;
+console.log(obj1 === obj3);
+
+let arr1 = [1, 2, 3];
+let arr2 = [1, 2, 3];
+console.log(arr1 === arr2);
+
