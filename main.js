@@ -180,3 +180,82 @@ console.log(a2 + b2);
 console.log(a2 - b2);
 console.log(a2 * b2);
 console.log(a2 / b2);
+
+
+//Оператор if / else
+let urAge = 18;
+
+if (urAge >= 18) {
+    console.log("Доступ разрешён");
+} else {
+    console.log("Доступ запрещён");
+}
+
+
+//12.3. Практическое задание
+let temp = 20;
+
+if (temp >= 20) {
+    console.log("Тепло");
+} else if (temp > 0 && temp < 20) {
+    console.log("Прохладно");
+} else {
+    console.log("Холодно");
+}
+
+
+//12.5. Практическое задание
+let isLoggedIn = true;
+let isAdmin = true;
+
+if (isAdmin === true && isLoggedIn === true) {
+    console.log("Полный доступ");
+} else if (isAdmin === false && isLoggedIn === true) {
+    console.log("Ограниченный доступ");
+} else {
+    console.log("Доступ запрещён");
+}
+
+
+//12.6. Практическое задание
+let a3 = 10;
+let b3 = "10";
+
+if (ms1 = a3 == b3) {
+    console.log(ms1);
+} else if (ms2 = a3 === b3) {
+    console.log(ms2);
+} else if (ms3 = b3 == a3) {
+    console.log(ms3);
+} else if (ms4 = b3 === a3) {
+    console.log(ms4);
+}
+
+
+//Конструкция switch / case
+let day = 3;
+switch (day) {
+    case 1: console.log("Понедельник"); break;
+    case 2: console.log("Вторник"); break;
+    case 3: console.log("Среда"); break;
+    default: console.log("Неизвестный день");
+}
+
+
+//12.9. Практическое задание
+let monthNumber = 10;
+switch (monthNumber) {
+    case 1: console.log("Январь"); break;
+    case 2: console.log("Февраль"); break;
+    case 3: console.log("Март"); break;
+    case 4: console.log("Апрель"); break;
+    case 5: console.log("Май"); break;
+    case 6: console.log("Июнь"); break;
+    case 7: console.log("Июль"); break;
+    case 8: console.log("Август"); break;
+    case 9: console.log("Сентябрь"); break;
+    case 10: console.log("Октябрь"); break;
+    case 11: console.log("Ноябрь"); break;
+    case 12: console.log("Декабрь"); break;
+    default: console.log("Неизвестный месяц");
+}
