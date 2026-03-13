@@ -119,3 +119,32 @@ console.log(typeof  newPrice);
 newPrice = "Теперь это строка";
 console.log(newPrice)
 console.log(typeof  newPrice);
+
+
+//Явное преобразование типов:
+//В строку
+let num = 42;
+let str = String(num);
+let str2 = num.toString();
+let str3 = "" + num;
+//В число
+let strNum = "123";
+let int = Number(strNum);
+let int2 = parseInt("42.5");
+let float = parseFloat("3.14");
+let int3 = +"99";
+//В булево значение
+let bool1 = Boolean(1);
+let bool2 = !!1;
+let bool3 = Boolean(0);
+let bool4 = Boolean("");
+
+
+//Неявное преобразование (coercion):
+console.log("5" + 3);
+console.log("5" - 3);
+console.log("5" * "2");
+console.log(true + 1);
+console.log(false + 1);
+console.log(null + 1);
+console.log(undefined + 1);
