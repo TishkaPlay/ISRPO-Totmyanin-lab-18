@@ -44,4 +44,4 @@ Lab18_LearnJs_FIO/
     └── step12_conditionsLab18_FIO.png
 ```
 
-![Скриншот итоговой таблицы: JavaScript vs C#](img\js.commands.png)
+![Скриншот итоговой таблицы: JavaScript vs C#](/img/js.commands.png)
