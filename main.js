@@ -89,10 +89,33 @@ console.log("10" - 5);
 const numbersArray = [1, 2, 3];
 numbersArray[0] = 10;
 console.log(numbersArray);
-numbersArray = [5, 6 ,7];
+//numbersArray = [5, 6 ,7];
 //objects
 const persons = { name: "Denis", age: 18 };
 persons.age = 20;
 persons.city = "Volgograd";
 console.log(persons);
 person = { name: "Stas" };
+
+
+//проверка типов
+console.log(typeof "text");
+console.log(typeof 42);
+console.log(typeof true);
+console.log(typeof undefined);
+console.log(typeof null);
+console.log(typeof {});
+console.log(typeof []);
+console.log(typeof function () {});
+
+let numberX = null;
+console.log(numberX === null);
+
+
+//практическое задание
+let newPrice = 21;
+console.log(newPrice)
+console.log(typeof  newPrice);
+newPrice = "Теперь это строка";
+console.log(newPrice)
+console.log(typeof  newPrice);
