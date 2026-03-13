@@ -171,3 +171,12 @@ let arr1 = [1, 2, 3];
 let arr2 = [1, 2, 3];
 console.log(arr1 === arr2);
 
+
+//11.4 Практическое задание
+let a2 = 10;
+let b2 = 5;
+
+console.log(a2 + b2);
+console.log(a2 - b2);
+console.log(a2 * b2);
+console.log(a2 / b2);
